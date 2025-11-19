@@ -15,8 +15,12 @@ export default function ProjectModal({ media, onClose }: ProjectModalProps) {
     setIndex((prev) => (prev - 1 + media.length) % media.length);
 
   const current = media[index];
-  const isVideo = current.endsWith(".mp4") || current.endsWith(".webm");
+  //const isVideo = current.endsWith(".mp4") || current.endsWith(".webm");
+  const isLocalVideo =
+  current.endsWith(".mp4") || current.endsWith(".webm");
 
+const isYouTube = current.startsWith("youtube:");
+const youtubeId = isYouTube ? current.replace("youtube:", "") : null;
   return (
     <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-[9999]">
       <div className="relative bg-zinc-900 p-4 rounded-xl w-[90%] md:w-[70%]">
@@ -29,16 +33,26 @@ export default function ProjectModal({ media, onClose }: ProjectModalProps) {
         </button>
 
         <div className="flex items-center justify-center h-[400px]">
-          {isVideo ? (
-            <video
-              src={current}
-              controls
-              className="h-full rounded-lg"
-            ></video>
-          ) : (
-            <Image src={current}  width={660} height={400}  alt="Salah Haddani" className="h-full rounded-lg object-contain" />
-          )}
-        </div>
+  {isYouTube ? (
+    <iframe
+      className="w-full h-full rounded-lg"
+      src={`https://www.youtube.com/embed/${youtubeId}`}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  ) : isLocalVideo ? (
+    <video src={current} controls className="h-full rounded-lg" />
+  ) : (
+    <Image
+      src={current}
+      width={660}
+      height={400}
+      alt="Project preview"
+      className="h-full rounded-lg object-contain"
+    />
+  )}
+</div>
+
 
         <button
           onClick={prev}

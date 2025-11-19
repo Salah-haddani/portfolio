@@ -15,7 +15,7 @@ function Page() {
       link: "https://github.com/Salah-haddani/read-planner",
       sourceCode: "",
       media: [
-        "/projects/readplanner/demo.mp4",
+        "youtube:yT_ncpVBZkw",
       ]
     },
     {
@@ -27,7 +27,7 @@ function Page() {
       sourceCode: "",
       media: [
         
-        "/projects/friendpay/demo.mp4",
+        "youtube:LEtpUZj3PlQ",
       ]
     },
     {
@@ -48,7 +48,7 @@ function Page() {
         "/projects/quizmaker/8.PNG",
         "/projects/quizmaker/9.PNG",
         "/projects/quizmaker/10.PNG",
-        "/projects/quizmaker/demo.mp4",
+        "youtube:uN7c7rkhjWY",
       ]
     },
     {
