@@ -38,16 +38,6 @@ function Page() {
       link: "https://github.com/Salah-haddani/quiz-app",
       sourceCode: "",
       media: [
-        "/projects/quizmaker/1.png",
-        "/projects/quizmaker/2.png",
-        "/projects/quizmaker/3.png",
-        "/projects/quizmaker/4.PNG",
-        "/projects/quizmaker/5.PNG",
-        "/projects/quizmaker/6.PNG",
-        "/projects/quizmaker/7.PNG",
-        "/projects/quizmaker/8.PNG",
-        "/projects/quizmaker/9.PNG",
-        "/projects/quizmaker/10.PNG",
         "youtube:uN7c7rkhjWY",
       ]
     },
@@ -59,14 +49,7 @@ function Page() {
       link: "https://github.com/Salah-haddani/ecommerce-app",
       sourceCode: "",
       media: [
-        "/projects/ugaming/1.png",
-        "/projects/ugaming/2.PNG",
-        "/projects/ugaming/3.PNG",
-        "/projects/ugaming/4.PNG",
-        "/projects/ugaming/5.PNG",
-        "/projects/ugaming/6.PNG",
-        "/projects/ugaming/7.PNG",
-        "/projects/ugaming/demo.mp4",
+        "youtube:4eCeqY_yVZg",
       ]
     },
     {
@@ -90,15 +73,7 @@ function Page() {
       link: "https://github.com/Salah-haddani/sahara",
       sourceCode: "",
       media: [
-        "/projects/landingpage/1.png",
-        "/projects/landingpage/2.png",
-        "/projects/landingpage/3.png",
-        "/projects/landingpage/4.png",
-        "/projects/landingpage/5.png",
-        "/projects/landingpage/6.png",
-        "/projects/landingpage/7.png",
-        "/projects/landingpage/8.png",
-        "/projects/landingpage/demo.png",
+        "youtube:AR2mc__y4rw",
       ]
     },
     {
@@ -109,13 +84,7 @@ function Page() {
       link: "https://github.com/Salah-haddani/form",
       sourceCode: "",
       media: [
-        "/projects/form/1.png",
-        "/projects/form/2.png",
-        "/projects/form/4.png",
-        "/projects/form/5.png",
-        "/projects/form/6.png",
-        "/projects/form/7.png",
-        "/projects/form/demo.png",
+        "youtube:sJez66c1Qu4",
       ]
     },
   ];
