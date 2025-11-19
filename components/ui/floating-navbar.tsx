@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 import {
   motion,
   AnimatePresence,
@@ -82,13 +83,14 @@ export const FloatingNav = ({
           className="font-bold mr-9   text-sm flex items-center justify-center text-black space-x-2"
           href="/"
         >
-          <img
-            src="salah.png"
-            width={30}
-            height={30}
-            className="transition duration-500  blur-0 scale-100 rounded-full "
-            alt=""
-          />
+          <Image
+  src="/salah.png"
+  width={300}
+  height={300}
+  alt="Salah Haddani"
+  className="transition duration-500  blur-0 scale-100 rounded-full "
+/>
+          
           <span className="font-inter font-bold">Salah Haddani</span>
         </a>
         {navItems.map((navItem: any, idx: number) => (
@@ -117,3 +119,13 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
+
+/*
+<img
+            src="salah.png"
+            width={30}
+            height={30}
+            className="transition duration-500  blur-0 scale-100 rounded-full "
+            alt=""
+          />
+*/

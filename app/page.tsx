@@ -95,16 +95,24 @@ export default function Home() {
   </div>
         </div>
         <div className="order-first md:order-last">
-          <img
-            src="salah.png"
-            width={300}
-            height={300}
-            className="rounded-2xl"
-            alt=""
-          />
+        <Image
+          src="/salah.png"
+          width={300}
+          height={300}
+          alt="Salah Haddani"
+          className="rounded-2xl"
+        />
           
         </div>
       </div>
     </>
   );
 }
+/*
+<img
+            src="salah.png"
+            width={300}
+            height={300}
+            className="rounded-2xl"
+            alt=""
+          />*/

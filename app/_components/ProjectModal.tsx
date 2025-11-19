@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 interface ProjectModalProps {
     media: string[];
@@ -35,7 +36,8 @@ export default function ProjectModal({ media, onClose }: ProjectModalProps) {
               className="h-full rounded-lg"
             ></video>
           ) : (
-            <img src={current} className="h-full rounded-lg object-contain" />
+            <Image src={current} alt="Salah Haddani" className="h-full rounded-lg object-contain" />
+            
           )}
         </div>
 
@@ -55,3 +57,7 @@ export default function ProjectModal({ media, onClose }: ProjectModalProps) {
     </div>
   );
 }
+/**
+ * 
+ * <img src={current} className="h-full rounded-lg object-contain" />
+ */
