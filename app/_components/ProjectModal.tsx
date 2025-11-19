@@ -36,8 +36,7 @@ export default function ProjectModal({ media, onClose }: ProjectModalProps) {
               className="h-full rounded-lg"
             ></video>
           ) : (
-            <Image src={current} alt="Salah Haddani" className="h-full rounded-lg object-contain" />
-            
+            <Image src={current}  width={660} height={400}  alt="Salah Haddani" className="h-full rounded-lg object-contain" />
           )}
         </div>
 
@@ -57,7 +56,9 @@ export default function ProjectModal({ media, onClose }: ProjectModalProps) {
     </div>
   );
 }
-/**
- * 
- * <img src={current} className="h-full rounded-lg object-contain" />
+/*
+  <Image src={current} alt="Salah Haddani" className="h-full rounded-lg object-contain" />
+  <img src={current} className="h-full rounded-lg object-contain" />
+ 
+ 
  */

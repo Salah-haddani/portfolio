@@ -85,8 +85,8 @@ export const FloatingNav = ({
         >
           <Image
   src="/salah.png"
-  width={300}
-  height={300}
+  width={30}
+  height={30}
   alt="Salah Haddani"
   className="transition duration-500  blur-0 scale-100 rounded-full "
 />
