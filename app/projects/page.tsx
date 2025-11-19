@@ -5,7 +5,7 @@ import HorizontalScrollProjects from "../_components/HorizontalScrollProjects";
 import ProjectModal from "../_components/ProjectModal";
 
 
-function page() {
+function Page() {
   const projects = [
     {
       title: "ReadPlanner",
@@ -153,4 +153,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
