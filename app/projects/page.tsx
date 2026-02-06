@@ -213,6 +213,17 @@ function Page() {
         "youtube:sJez66c1Qu4",
       ]
     },
+    {
+      title: "Ecommerce App",
+      description:
+        "modern e-commerce frontend UI for clothing with clean design and smooth interactions",
+      image: "/store.png",
+      link: "https://github.com/Salah-haddani/store",
+      sourceCode: "",
+      media: [
+        "youtube:OJJQJ62CVPU",
+      ]
+    },
   ];
 
 
