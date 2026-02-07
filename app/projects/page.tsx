@@ -156,6 +156,17 @@ function Page() {
         "youtube:LEtpUZj3PlQ",
       ]
     },
+        {
+      title: "Ecommerce App",
+      description:
+        "modern e-commerce frontend UI for clothing with clean design and smooth interactions",
+      image: "/store.png",
+      link: "https://github.com/Salah-haddani/store",
+      sourceCode: "",
+      media: [
+        "youtube:OJJQJ62CVPU",
+      ]
+    },
     {
       title: "QuizMaker",
       description:
@@ -167,17 +178,18 @@ function Page() {
         "youtube:uN7c7rkhjWY",
       ]
     },
-    {
-      title: "Ugaming",
+        {
+      title: "Landing Page",
       description:
-        "Ugaming is an online store to showcase products and provide a seamless shopping experience.",
-      image: "/ugaming.png",
-      link: "https://github.com/Salah-haddani/ecommerce-app",
+        "an engaging and creative landing page to showcase a brand’s services, products.",
+      image: "/sahara.png",
+      link: "https://github.com/Salah-haddani/sahara",
       sourceCode: "",
       media: [
-        "youtube:4eCeqY_yVZg",
+        "youtube:AR2mc__y4rw",
       ]
     },
+    
     {
       title: "Chat-App",
       description:
@@ -191,15 +203,15 @@ function Page() {
         "/projects/chatapp/3.png",
       ]
     },
-    {
-      title: "Landing Page",
+{
+      title: "Ugaming",
       description:
-        "an engaging and creative landing page to showcase a brand’s services, products.",
-      image: "/sahara.png",
-      link: "https://github.com/Salah-haddani/sahara",
+        "Ugaming is an online store to showcase products and provide a seamless shopping experience.",
+      image: "/ugaming.png",
+      link: "https://github.com/Salah-haddani/ecommerce-app",
       sourceCode: "",
       media: [
-        "youtube:AR2mc__y4rw",
+        "youtube:4eCeqY_yVZg",
       ]
     },
     {
@@ -213,17 +225,7 @@ function Page() {
         "youtube:sJez66c1Qu4",
       ]
     },
-    {
-      title: "Ecommerce App",
-      description:
-        "modern e-commerce frontend UI for clothing with clean design and smooth interactions",
-      image: "/store.png",
-      link: "https://github.com/Salah-haddani/store",
-      sourceCode: "",
-      media: [
-        "youtube:OJJQJ62CVPU",
-      ]
-    },
+
   ];
 
 
